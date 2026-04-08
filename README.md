@@ -2,22 +2,21 @@
 
 ## Overview
 
-This project is a **Student Management System** built using **ASP.NET Core Web API** with SQL Server. It demonstrates CRUD operations, JWT Authentication, logging, exception handling, and layered architecture.
+This project is a **Student Management System** developed using **ASP.NET Core Web API** and **SQL Server**. It demonstrates secure API development with JWT Authentication, proper architecture, logging, and exception handling.
 
-This project was developed as part of a technical assignment to showcase backend and basic full-stack development skills.
+The project was created as part of a technical assignment to showcase backend development skills.
 
 ---
 
 ## Features
 
-* Create, Read, Update, and Delete (CRUD) Students
+* CRUD Operations for Students (Create, Read, Update, Delete)
 * JWT Authentication and Authorization
 * SQL Server Database Integration
-* Global Exception Handling Middleware
+* Global Exception Handling using Middleware
 * Logging using Serilog
 * Swagger API Documentation
 * Layered Architecture (Controller, Service, Repository)
-* Basic HTML UI for interacting with APIs
 
 ---
 
@@ -29,7 +28,6 @@ This project was developed as part of a technical assignment to showcase backend
 * JWT Authentication
 * Serilog Logging
 * Swagger (OpenAPI)
-* HTML, JavaScript, Bootstrap (Basic UI)
 
 ---
 
@@ -112,12 +110,6 @@ F5
 
 ## Access the Application
 
-### Basic UI
-
-```
-https://localhost:7181/index.html
-```
-
 ### Swagger API Documentation
 
 ```
@@ -174,10 +166,9 @@ StudentApi
 ├── Repositories
 ├── Models
 ├── Middleware
-├── wwwroot
-│     └── index.html
 ├── Program.cs
 ├── appsettings.json
+├── README.md
 ```
 
 ---
@@ -200,4 +191,4 @@ Role: Full Stack Developer Candidate
 
 ## Notes
 
-This project was developed for technical evaluation purposes to demonstrate practical knowledge of ASP.NET Core Web API, SQL Server, authentication, and clean architecture principles.
+This project focuses on backend API development using ASP.NET Core Web API with SQL Server. All APIs can be tested using Swagger.
